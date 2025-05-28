@@ -1,0 +1,45 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 30px 10px;
+}
+
+.status {
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.status.error {
+  color: #e74c3c;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  max-width: 100%;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.controls input:focus,
+.controls select:focus {
+  border-color: #3498db;
+}

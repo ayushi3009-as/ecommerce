@@ -1,0 +1,92 @@
+.cart-panel {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.cart-panel h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 6px;
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.cart-details h4 {
+  margin: 0;
+  color: #333;
+}
+
+.cart-details p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.quantity-controls button {
+  padding: 4px 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-controls button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.cart-summary {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cart-summary h3 {
+  margin: 5px 0;
+  color: #2c3e50;
+}
