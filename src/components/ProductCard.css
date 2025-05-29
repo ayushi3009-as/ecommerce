@@ -11,7 +11,7 @@
 
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(198, 41, 190, 0.1);
 }
 
 .product-card img {
@@ -25,7 +25,7 @@
 .product-card h2 {
   font-size: 1.2rem;
   margin: 8px 0;
-  color: #333;
+  color: #e82372;
 }
 
 .product-card p {
@@ -55,3 +55,10 @@
   font-weight: bold;
   color: #2c3e50;
 }
+
+.product-link {
+  text-decoration: none;   /* remove underline */
+  color: inherit;          /* use the default text color */
+  display: block;          /* make entire link clickable */
+}
+
